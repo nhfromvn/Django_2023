@@ -1,0 +1,94 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> Heart </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ 
+   
+  <style>
+  html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+ 
+.box {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+}
+ 
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+#pinkboard {
+  position: relative;
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  animation: animate 1.3s infinite;
+}
+ 
+#pinkboard:before, #pinkboard:after {
+  content: '';
+  position: absolute;
+  background: #FF5CA4;
+  width: 100px;
+  height: 160px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+ 
+#pinkboard:before {
+  left: 100px;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+              0 10px 10px rgba(0,0,0,0.22);
+}
+ 
+#pinkboard:after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+}
+ 
+@keyframes animate {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(.8);
+  }
+  60% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+  </style>
+ </HEAD>
+ 
+ <BODY>
+  <div>
+  <video>
+  <src src="https://v16m-default.akamaized.net/2c47c8c8d1e79011f50910fe954f874a/6482f536/video/tos/alisg/tos-alisg-pve-0037/oofFkDebztNReGARQVxQWeSnADnJAVTm6S2CIU/?a=0&ch=0&cr=0&dr=0&lr=all&cd=0%7C0%7C0%7C1&br=532&bt=266&cs=0&ds=6&ft=iJOG.y7oZzv0PD1O7gtXg9wizgMrBEeC~&mime_type=video_mp4&qs=0&rc=aDM1ZTk0OjpkaWVmPGc3NkBpMzw3bjs6ZmlpazMzODgzNEBfL2M1MTEuX2MxYzMwYzQxYSMxMG1ycjRnaW9gLS1kLy1zcw%3D%3D&l=202306090347157FC415D1D1F7AA5F283B&btag=e00080000">
+  </videos></div>
+
+ </BODY>
+</HTML>
