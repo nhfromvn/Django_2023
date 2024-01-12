@@ -16,7 +16,6 @@ Including another URLconf
 """
 from django.urls import path
 from file_upload import views
-
 urlpatterns = [
     path('upload/', views.upload_file, name='upload_file'),
 ]
